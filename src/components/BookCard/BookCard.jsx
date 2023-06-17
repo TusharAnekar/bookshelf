@@ -5,7 +5,7 @@ export function BookCard({ _id, img, name, author, category }) {
   const { moveTo } = useContext(BooksContext);
 
   return (
-    <div key={_id} className="book_container">
+    <div className="book_container">
       <img src={img} alt={name} />
       <p>{name}</p>
       <p>{author}</p>

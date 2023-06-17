@@ -18,7 +18,7 @@ export function Home() {
             {updatedBooks
               .filter(({ category }) => category === categoryName)
               .map((book) => (
-                <BookCard {...book}/>
+                <BookCard {...book} key={book._id}/>
               ))}
           </div>
         </div>

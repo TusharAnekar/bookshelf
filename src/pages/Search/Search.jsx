@@ -28,7 +28,7 @@ export function Search() {
       />
       <div className="search_books_container">
         {searchedBooks.map((book) => (
-          <BookCard {...book} />
+          <BookCard {...book} key={book._id}/>
         ))}
       </div>
     </div>
