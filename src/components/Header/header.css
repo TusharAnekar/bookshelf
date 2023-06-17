@@ -1,0 +1,23 @@
+.nav_container {
+    background-color: aqua;
+    padding: 20px;
+}
+
+.links {
+    font-size: 1rem;
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+@media (min-width: 768px) {
+    .links {
+        font-size: 1.125rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .links {
+        font-size: 1.25rem;
+    }
+}
